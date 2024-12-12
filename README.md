@@ -1,6 +1,6 @@
 # Lottery 2024 Predictor Project 
 
-[View the Python Script](https://github.com/arcesoftware/LoteriaNavidad2024/blob/main/loto.py)
+![2024](https://github.com/arcesoftware/LoteriaNavidad2024/blob/main/loto.py)
 
 
 This project implements a neural network model to predict a "Favored Number" for a given year based on historical data using PyTorch. The dataset is small but represents the only real data available for this phenomenon.
