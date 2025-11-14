@@ -6,12 +6,12 @@ import numpy as np
 
 # Prepare the dataset
 data = {
-    "Year": list(range(1960, 2024)),
+    "Year": list(range(1960, 2025)),
     "Favored_Number": [
         30, 45, 92, 62, 15, 28, 82, 16, 30, 3, 94, 54, 89, 33, 31, 19, 51, 52, 50, 74,
         44, 4, 96, 15, 17, 30, 40, 94, 59, 7, 37, 50, 25, 91, 75, 39, 8, 65, 72, 6, 9,
         83, 33, 20, 62, 3, 40, 61, 66, 90, 41, 25, 70, 67, 29, 63, 93, 6, 19, 15, 66,
-        19, 0, 94
+        19, 0, 94, 43
     ]
 }
 
@@ -118,4 +118,5 @@ predicted_favored_number = round(denormalize(predicted_number_normalized, min_nu
 
 # Print the predicted favored number
 print(f"The predicted favored number for 2024 is: {predicted_favored_number}")
+
 
